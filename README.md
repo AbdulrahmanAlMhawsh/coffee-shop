@@ -16,7 +16,7 @@ A simple and modern coffee shop front-end built with **Vite**, **Tailwind CSS**,
 
 - Node.js 
 - npm
-- 
+
 ### Installation
 
 ```bash
