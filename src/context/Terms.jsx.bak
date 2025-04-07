@@ -1,11 +1,7 @@
-// Shipping policy content page
-// File: Shipping.jsx
-
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Shipping() {
+function Terms() {
   const pageStyle = {
     backgroundColor: '#4E342E',
     color: 'white',
@@ -27,13 +23,13 @@ function Shipping() {
 
   return (
     <div style={pageStyle}>
-      <h1>Shipping Information</h1>
+      <h1>Terms and Conditions</h1>
       <p>
-        Our shipping policy ensures fast and reliable delivery for all orders. Items are dispatched within 2 business days and typically arrive within 3-7 days, depending on your location.
+        By using our website, you agree to abide by our terms and conditions. These include guidelines for using our services and limitations of liability.
       </p>
       <Link to="/" style={buttonStyle}>Home</Link>
     </div>
   );
 }
 
-export default Shipping;
+export default Terms;

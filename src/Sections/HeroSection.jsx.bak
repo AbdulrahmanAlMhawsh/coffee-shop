@@ -1,5 +1,5 @@
 
-export default function Div1() {
+function HeroSection() {
   return (
     <>
     <section className=" bg-coffeeBrown body-font">
@@ -63,7 +63,7 @@ export default function Div1() {
   {/* Imagen a la izquierda */}
   <div className="w-1/2 flex items-center justify-center">
     <img
-      src="/images/blended-coffee.png"
+      src="public/images/blended-coffee.png"
       alt="Coffee"
       className="h-full object-contain"
     />
@@ -85,7 +85,7 @@ export default function Div1() {
   {/* Imagen a la izquierda */}
   <div className="w-1/2 flex items-center justify-center">
     <img
-      src="/images/flavored-coffee.png"
+      src="public/images/flavored-coffee.png"
       alt="Coffee"
       className="h-full object-contain"
     />
@@ -93,7 +93,7 @@ export default function Div1() {
 
   {/* Contenido a la derecha */}
   <div className="w-1/2 flex flex-col bg-coffeeBrown p-4 justify-center rounded-r">
-    <h2 className="text-lg font-bold text-lightCream mb-2">Flavored Coffee</h2>
+    <h2 className="text-lg font-bold text-lightCream mb-2">Blended Coffee</h2>
     <p className="text-lightCream mb-3">★★★★★</p>
     <button className="px-4 py-2 bg-coffeeCream text-coffeeBrown text-sm rounded hover:bg-gray-200 transition">
       BUY NOW
@@ -107,7 +107,7 @@ export default function Div1() {
   {/* Imagen a la izquierda */}
   <div className="w-1/2 flex items-center justify-center">
     <img
-      src="/images/roast-coffee.png"
+      src="public/images/roast-coffee.png"
       alt="Coffee"
       className="h-full object-contain"
     />
@@ -115,7 +115,7 @@ export default function Div1() {
 
   {/* Contenido a la derecha */}
   <div className="w-1/2 flex flex-col bg-coffeeBrown p-4 justify-center rounded-r">
-    <h2 className="text-lg font-bold text-lightCream mb-2">Roast Coffee</h2>
+    <h2 className="text-lg font-bold text-lightCream mb-2">Blended Coffee</h2>
     <p className="text-lightCream mb-3">★★★★★</p>
     <button className="px-4 py-2 bg-coffeeCream text-coffeeBrown text-sm rounded hover:bg-gray-200 transition">
       BUY NOW
@@ -131,3 +131,6 @@ export default function Div1() {
     </>
   )
 }
+
+
+export default HeroSection;

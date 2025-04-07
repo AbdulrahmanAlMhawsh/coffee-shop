@@ -1,0 +1,21 @@
+
+import React from "react";
+import HeroSection from "./HeroSection";
+import SectionExploring from "../Sections/Section_Exploring";
+import NextExploringOurUnique from "../Sections/Next_Exploring_Our_Unique";
+import Blog from "../Blog";
+import NewCollection from "../components/NewCollection";
+
+const Home = () => {
+  return (
+    <>
+      <HeroSection />
+      <SectionExploring />
+      <NextExploringOurUnique />
+      <Blog />
+      <NewCollection />
+    </>
+  );
+};
+
+export default Home;

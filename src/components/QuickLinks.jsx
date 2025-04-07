@@ -1,0 +1,23 @@
+// Component to render useful footer navigation links
+// File: QuickLinks.jsx
+
+
+
+import React from "react";
+import { Link } from "react-router-dom";
+
+const QuickLinks = () => {
+  return (
+    <div className="quickLinksCard">
+      <h2>Quick Links</h2>
+      <ul>
+        <li><Link to="/privacy-policy" className="policy">Policy</Link></li>
+        <li><Link to="/terms" className="terms">Terms & Conditions</Link></li>
+        <li><Link to="/shipping" className="services">Services</Link></li>
+        <li><Link to="/return" className="return">Return</Link></li>
+      </ul>
+    </div>
+  );
+};
+
+export default QuickLinks;

@@ -1,13 +1,23 @@
-import Header from "../components/Header"
+// Home page layout including main content sections
+// File: Home.jsx
 
-export default function About() {
+import React from "react";
+import HeroSection from "../sections/HeroSection";
+import SectionExploring from "../sections/Section_Exploring";
+import NextExploringOurUnique from "../sections/Next_Exploring_Our_Unique";
+import Blog from "./Blog";
+import NewCollection from "../components/NewCollection";
+
+const Home = () => {
   return (
     <>
-      <Header />
-      <main className="container mx-auto px-4 py-8">
-        <h1 className="text-4xl font-bold mb-4">About Us</h1>
-        <p className="text-lg">Learn more about our company and mission.</p>
-      </main>
+      <HeroSection />
+      <SectionExploring />
+      <NextExploringOurUnique />
+      <Blog />
+      <NewCollection />
     </>
-  )
-}
+  );
+};
+
+export default Home;

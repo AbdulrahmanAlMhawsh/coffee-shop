@@ -1,3 +1,7 @@
+// Terms and conditions content page
+// File: Terms.jsx
+
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 

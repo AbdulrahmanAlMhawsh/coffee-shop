@@ -1,0 +1,29 @@
+
+import React from "react";
+
+const CollectionCard = ({ background, title, description, image, expanded, onToggle }) => {
+  return (
+    <div
+      className="p-5 rounded-lg text-white text-center min-h-[450px] w-full max-w-[600px] shadow-lg transition-transform"
+      style={{ background }}
+    >
+      <img
+        src={image}
+        alt={title}
+        className="w-full max-w-[345px] rounded mb-4 transition-transform duration-300 hover:scale-110 mx-auto"
+      />
+      <h3 className="text-xl font-bold mb-2">{title}</h3>
+      <p className="mb-4">
+        {expanded ? description : `${description.substring(0, 100)}...`}
+      </p>
+      <button
+        className="bg-amber-700 hover:bg-amber-800 active:bg-amber-900 text-white px-6 py-2 rounded shadow"
+        onClick={onToggle}
+      >
+        {expanded ? "Read Less" : "Read More"}
+      </button>
+    </div>
+  );
+};
+
+export default CollectionCard;

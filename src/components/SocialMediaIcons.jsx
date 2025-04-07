@@ -1,0 +1,28 @@
+// Renders clickable icons linking to social media platforms
+// File: SocialMediaIcons.jsx
+
+
+
+import React from "react";
+import { FaFacebook, FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
+
+const SocialMediaIcons = () => {
+  return (
+    <div className="social-icons flex gap-4">
+      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+        <FaFacebook className="text-xl hover:text-blue-500" />
+      </a>
+      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+        <FaInstagram className="text-xl hover:text-pink-500" />
+      </a>
+      <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+        <FaYoutube className="text-xl hover:text-red-500" />
+      </a>
+      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <FaLinkedin className="text-xl hover:text-blue-700" />
+      </a>
+    </div>
+  );
+};
+
+export default SocialMediaIcons;

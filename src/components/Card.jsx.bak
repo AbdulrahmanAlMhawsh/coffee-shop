@@ -1,7 +1,3 @@
-// Reusable card component to display coffee products
-// File: Card.jsx
-
-
 
 function Card({ image, title, button_name, price }) {
   return (

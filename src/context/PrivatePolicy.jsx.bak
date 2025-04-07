@@ -1,11 +1,7 @@
-// Shipping policy content page
-// File: Shipping.jsx
-
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Shipping() {
+function PrivatePolicy() {
   const pageStyle = {
     backgroundColor: '#4E342E',
     color: 'white',
@@ -27,13 +23,13 @@ function Shipping() {
 
   return (
     <div style={pageStyle}>
-      <h1>Shipping Information</h1>
+      <h1>Privacy Policy</h1>
       <p>
-        Our shipping policy ensures fast and reliable delivery for all orders. Items are dispatched within 2 business days and typically arrive within 3-7 days, depending on your location.
+        We value your privacy and are committed to protecting your personal information. Please review our complete privacy guidelines for more details on how we handle data.
       </p>
       <Link to="/" style={buttonStyle}>Home</Link>
     </div>
   );
 }
 
-export default Shipping;
+export default PrivatePolicy;

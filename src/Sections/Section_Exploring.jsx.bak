@@ -1,16 +1,15 @@
-// Section highlighting various product features or services
-// File: Section_Exploring.jsx
-
 import Card from "../components/Card"
 
 function Section_Exploring () {
   
     return (
 
+
+
       <div className="app-container bg-[#6d4c41] text-white font-sans text-center">
-      {/* Background with video */}
+      {/* الخلفية بالفيديو */}
       <div className="relative bg-cover bg-center">
-        {/* Video element */}
+        {/* عنصر الفيديو */}
         <video 
           autoPlay 
           loop 
@@ -18,11 +17,11 @@ function Section_Exploring () {
           playsInline 
           className="absolute inset-0 w-full h-full object-cover z-0">
           <source src="https://videos.pexels.com/video-files/4326938/4326938-uhd_3840_2160_25fps.mp4" type="video/mp4" />
-          {/* Message if video is not supported */}
+          {/* رسالة في حالة عدم دعم الفيديو */}
           Your browser does not support the video tag.
         </video>
     
-        {/* Text and content overlaying the video */}
+        {/* النص والمحتوى فوق الفيديو */}
         <h1 className="text-white relative z-10">Exploring Our Unique Collections</h1>
         <div className="absolute inset-0 bg-[#6d4c41]/80 z-5"></div>
     
